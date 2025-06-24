@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useDebounce } from 'react-use';
-import Search from './components/search'
-import Spinner from './components/Spinner';
-import MovieCard from './components/MovieCard';
-import { getTrendingMovies, updateSearchCount } from './appwrite';
+// import React from 'react'
+
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
